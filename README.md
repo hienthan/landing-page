@@ -11,3 +11,5 @@ npm install zustand (instead of using context API?.. for darkmode?)
 - Brands and Services sections:
 Used the brand icons.
 Added the services-data and Service card.
+
+- Imlement the remain sections: AboutUs, Pricing, CTA
