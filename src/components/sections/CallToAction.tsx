@@ -4,7 +4,7 @@ import { Paragraph } from "../shared/Paragraph";
 
 export const CTA = () => {
   return (
-    <section className="pb-20 relative">
+    <section className="pb-10 relative">
       <Container>
         <div className="relative rounded-2xl overflow-hidden">
           <div className="relative z-10 mx-auto text-center max-w-xl md:max-w-2xl py-8 md:py-10 px-6 md:px-8">
@@ -15,7 +15,7 @@ export const CTA = () => {
               </span>{" "}
               Business
             </h1>
-            <Paragraph className="pt-10">
+            <Paragraph className="pt-5">
               Leverage our AI-powered platform to revolutionize your digital
               marketing efforts. Get data-driven insights and automation at your
               fingertips.
