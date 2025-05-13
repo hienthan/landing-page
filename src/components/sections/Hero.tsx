@@ -21,16 +21,15 @@ const Hero = () => {
                         lg:max-w-none max-w-3xl mx-auto lg:mx-0 lg:flex-1 lg:w-1/2"
         >
           <h1 className="text-heading-1 text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-bold">
-            Empower Your Business
+            Voice-Powered Productivity For The
             <span className="text-primary text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-violet-600 ml-2">
-              with AI
+              40+ Workforce
             </span>
           </h1>
           <Paragraph className="mt-4">
-            Our AI SaaS platform seamlessly integrates with your existing
-            workflows to deliver real‑time insights, intelligent automation, and
-            data‑driven decision-making. Experience a future where your business
-            runs smarter, faster, and more efficiently.
+            heyQ’s strength is that it blends automation with intuitive
+            voice-first simplicity, bridging the tech divide without asking the
+            user to become tech-literate.
           </Paragraph>
           <div className="mt-10 w-full flex max-w-md mx-auto lg:mx-0">
             <form
@@ -41,7 +40,6 @@ const Hero = () => {
                                           focus-within:border-primary"
             >
               <span className="min-w-max pr-2 border-r border-box-border">
-                {" "}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="20"
@@ -66,12 +64,11 @@ const Hero = () => {
               <Button className="rounded-full min-w-max text-white">
                 Get Started
               </Button>
-              {/* Missed the span */}
             </form>
           </div>
         </div>
 
-        <div className="flex flex-1 lg:w-1/2 lg:h-auto relative lg:max-w-non lg:mx-0 mx-auto max-w-3xl">
+        <div className="flex flex-1 lg:w-1/2 lg:h-auto relative lg:max-w-non lg:mx-0 mx-auto max-w-3xl items-center">
           <img
             src="https://images.pexels.com/photos/7773731/pexels-photo-7773731.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             alt="Hero image"

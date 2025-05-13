@@ -5,7 +5,7 @@ interface ParagraphProps {
   
   export const Paragraph = ({ children, className = "" }: ParagraphProps) => {
     return (
-      <p className={`text-heading-3 md:text-lg ${className}`}> {children} </p>
+      <p className={`text-heading-3 md:text-lg mt-2 ${className}`}> {children} </p>
     );
   };
   

@@ -8,9 +8,9 @@ import { CTA } from "./components/sections/CallToAction";
 
 const App = () => {
   return (
-    <Layout title="Landing Page PJ">
+    <Layout title="heyQ - Voice-Powered Productivity">
       <Hero />
-      <Brands />
+      {/* <Brands /> */}
       <Services />
       <AboutUs />
       <Pricing />

@@ -21,10 +21,10 @@ const Navbar = () => {
           {/* {Logo} */}
           <div className="min-w-max inline-flex relative">
             <a href="/" className="relative flex items-center gap-3">
-              <img src={logo} alt="EdgeAI Logo" className="w-10 h-10" />
-              <div className="inline-flex text-lg font-semibold text-heading-1">
-                EdgeAI
-              </div>
+              <img src={logo} alt="heyQ Logo" className="w-10 h-10" />
+              <span className="text-primary text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-violet-600 text-2xl font-semibold">
+                heyQ
+              </span>
             </a>
           </div>
 

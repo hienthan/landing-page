@@ -1,32 +1,47 @@
 export const pricingPlans = [
   {
-    title: "Basic",
-    price: "$19/mo",
+    title: "Free",
+    price: "$0/mo",
     features: [
-      "Access to basic AI tools",
-      "Limited data analytics",
-      "Email support",
+      "Basic reminders",
+      "1 calendar",
+      "Storage limit",
     ],
   },
   {
     title: "Pro",
-    price: "$49/mo",
+    price: "$4/mo",
     features: [
-      "Everything in Basic",
-      "Advanced AI features",
-      "Real‑time analytics",
-      "Priority email support",
+      "Full heyQ features",
+      "Sync, encryption",
+      "Notes, todos",
+    ],
+  },
+  {
+    title: "Premium",
+    price: "$10/mo",
+    features: [
+      "Everything in Pro",
+      "More storage",
+      "Plus additional features",
     ],
     bestValue: true,
   },
   {
-    title: "Enterprise",
-    price: "$99/mo",
+    title: "Add-On",
+    price: "$20/mo",
     features: [
-      "Everything in Pro",
-      "Dedicated account manager",
-      "Custom integrations",
-      "24/7 premium support",
+      "Everything in Premium",
+      "QTell access",
+      "Anytime support",
     ],
   },
+  // TODO: Update this
+  // {
+  //   title: "B2B Wholesale",
+  //   price: "40% discount",
+  //   features: [
+     
+  //   ],
+  // },
 ];
